@@ -24,6 +24,7 @@ Vue.component('echartPolar', EChartPolar)
 
 axios.defaults.headers.common['Authorization'] = 'Basic Ym9jbzpib2NvQDIwMTY='
 axios.defaults.headers.common['X-Api-Version'] = 'v1'
+
 Vue.prototype.$http = axios
 
 /* eslint-disable no-new */
